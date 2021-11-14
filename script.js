@@ -31,7 +31,6 @@ for (var i = 0; i < jsonDatabase.length; i++) {
 }
 
 function createElement(incomingJSON) {
-
   /// Create whole content item div and set class
   let newContentElement = document.createElement("DIV");
   newContentElement.classList.add('contentItem');
@@ -63,5 +62,4 @@ function createElement(incomingJSON) {
 
   /// Add the item to the page
   contentGridElement.appendChild(newContentElement);
-
 }
